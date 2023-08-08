@@ -1,5 +1,5 @@
 # OpenAIWritingEducator
-A demo for an automated teaching system that generate passages, open-ended questions about the passage, and gives feedback for student responses.
+A demo for an automated teaching system that generate passages, open-ended questions about the passage, and gives feedback for student responses. All that's needed to run this demo is to copy the python notebook and execute the cells in demo deployment section!
 
 
 
