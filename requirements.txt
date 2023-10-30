@@ -1,0 +1,12 @@
+gradio
+ipykernel
+numpy
+ipywidgets
+matplotlib
+fastapi
+uvicorn
+langchain
+openai
+streamlit
+tiktoken
+nltk

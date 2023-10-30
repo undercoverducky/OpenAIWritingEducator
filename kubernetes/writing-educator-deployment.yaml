@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: writing-educator-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: writing-educator
+  template:
+    metadata:
+      name: writing-educator-pod
+      labels:
+        app: writing-educator
+    spec:
+      containers:
+      - name: writing-educator
+        image: undercoverducky/writingteacher:0.0.4-amd64
+        ports:
+        - containerPort: 80
+      nodeSelector:
+        nodegroup: seldon-test-frontend-dev
