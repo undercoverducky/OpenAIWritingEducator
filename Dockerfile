@@ -6,6 +6,7 @@ WORKDIR /app
 COPY ./gradio_demo.py /app/gradio_demo.py
 COPY ./teaching_staff.py /app/teaching_staff.py
 COPY ./requirements.txt /app/requirements.txt
+COPY ./api_key.txt /app/api_key.txt
 RUN pip install --no-cache-dir -r requirements.txt
 RUN python -m nltk.downloader punkt
 

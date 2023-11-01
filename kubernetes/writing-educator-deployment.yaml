@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: writing-educator
-        image: undercoverducky/writingteacher:0.0.4-amd64
+        image: undercoverducky/writingteacher:0.0.5-amd64
         ports:
         - containerPort: 80
       nodeSelector:
